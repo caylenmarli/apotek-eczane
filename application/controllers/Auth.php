@@ -3,9 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller {
 
-    public function __construct() //pertama kali dijalankan
+    public function __construct() //Pertama kali dijalankan
     {
-        parent::__construct(); //jalankan CI yang di extends
+        parent::__construct(); //Jalankan CI yang di extends
         $this->load->model('Login_model');
     }
 
